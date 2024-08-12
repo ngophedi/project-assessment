@@ -1,0 +1,9 @@
+##Run the server using 
+
+python3 server.py
+
+##Run the client using on another terminal 
+
+python3 client.py
+
+##Enter the string you want to search for when prompted.
