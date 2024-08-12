@@ -1,3 +1,14 @@
+##This script sets up a multi-threaded TCP server that listens for connections, 
+receives string queries, and checks if the query string exists in a specified file.
+
+##The server can be configured to re-read the file on every query or load it once into memory.
+
+##It supports SSL for secure communication, depending on the configuration settings.
+
+##The server logs each query, along with the time taken to process it.
+
+
+
 ##Run the server using 
 
 python3 server.py
